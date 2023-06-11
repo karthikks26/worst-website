@@ -1,0 +1,62 @@
+/* home */
+@media (max-width:1212px) {
+  
+
+#home .container img{
+  display: none;
+
+}
+#home .container{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  
+}
+body > section.clients > div > div.karu > div.daba{
+  display: none;
+}
+body > section.more-about > div > img{
+  display: none;
+}
+body > section.main-features > div{
+  display: flex;
+  flex-direction: column;
+}
+body > section.more-about > div{
+  display: flex;
+  justify-content: center;
+}
+body > section.clients > div > div.karu > div.key{
+  display: none;
+}
+body > section.clients > div > div.bada-bhai > .dab-client{
+width: 2rem;
+
+}
+body > section.clients > div > div.bada-bhai{
+  display: none;
+}
+#navbar > button{
+  display: none;
+}
+#navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+body > section.more-about > div > div > div{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+}
+
+
+@media(max-width:412px){
+  #navbar{
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+}

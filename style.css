@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  color: grey;
+}
+
+/* navbar */
+
+#navbar {
+display: flex;
+margin-top: 15px;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+
+#navbar ul{
+  display: flex;
+
+  
+  
+  
+}
+nav ul li {
+  list-style: none;
+  
+}
+nav ul li a{
+  
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+  padding: 5px;
+  margin: 0px 1rem;
+
+}
+nav a:hover{
+  color: blue;
+}
+nav  .nav-btn{
+  
+  background-color: #4b8ef1;
+  padding: 8px;
+  border-radius: 1rem;
+  border: none;
+}
+hr{
+  color: lightblue;
+}
+/* home */
+#home img{
+  float: right;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.inside-cont{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#home h1{
+  font-size: 3rem;
+  padding: 5px;
+  margin-bottom: 18px;
+  
+}
+#home p{
+  padding: 5px;
+  margin-bottom: 10px
+}
+#home button{
+  padding:8px
+   ;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 2rem;
+}
+/* features */
+.features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.features p{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 25%;
+  color: grey;
+}
+span{
+  color: blue;
+}
+
+.main-features img{
+  padding: 3px 5px;
+  margin: 3px 2px;
+
+}
+.main-features-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.sub-cont{
+
+  padding: 0px 20px;
+  margin: 0px 5px;
+  box-shadow: 2px 2px 2px rgba(0,0, 0, 0.2),-2px -2px 2px rgba(0,0, 0, 0.2);
+  transition: all ease-in-out;
+}
+.sub-cont:hover{
+  background-color: lightblue;
+
+
+}
+  
+
+.sub-cont h3{
+  padding: 3px 4px;
+  margin: 5px 5px;
+}
+.sub-cont h3:hover{
+  color: white;
+}
+.sub-cont p{
+  padding: 2px 15px;
+  color: grey;
+}
+
+
+.sub-cont p:hover{
+
+  color: white;
+}
+.sub-cont img{
+  background-color: white;
+}
+
+  /* moreabout */
+  .more-about{
+    margin-top: 20px;
+  }
+  .more-about img{
+    float: right;
+      }
+      .more{
+        display: flex;
+      
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 5%;
+      }
+      .mainab{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .more .para{
+        padding: 20px 0px;
+        color: grey;
+      }
+      .more h2{
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+   
+   .more .box {
+        
+        box-shadow: 2px 2px 2px rgba(0,0, 0, 0.2),-2px -2px 2px rgba(0,0, 0, 0.2);
+        padding: 2px 5px;
+    
+  
+      }
+      .more .grid {
+        display: grid;
+        grid-template-columns: 200px 200px  ;
+        column-gap: 1rem;
+        row-gap: 1rem
+        ;
+        padding: 24px 0px;
+      
+        margin-top: 1rem;
+        justify-content: flex-start;
+      }
+      .more button{
+        width: 150px;
+        padding: 5px;
+        border-radius: 1rem;
+        border: none;
+        font-size: 1rem;
+        background-color: rgb(88, 124, 112);
+    }
+      .more h4{
+        font-size: 1rem;
+      }
+      .more h4:hover{
+        color: #4b8ef1;
+        cursor: pointer;
+      }
+
+/* clients */
+.clients .daba{
+  background-color: #4b8ef1
+  ;
+  color: white;
+  font-size: 1rem;
+
+  border-radius: 3rem;
+  width: 500px;
+}
+.bada{
+  display: flex;
+  justify-content: space-between;
+}
+.clients .daba {
+    padding: 3rem 1rem;
+    background-color: #4b8ef1;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 500px;
+    line-height: 2rem;
+  
+}
+body > section.clients > div > div.dab-client > div{
+  display: flex;
+  flex-direction: column;
+}
+body > section.clients > div > div.bada-bhai > div.dab-client{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  width: 43rem;
+  margin-bottom:1rem ;
+  margin-left: 1rem;
+}
+
+#clients .karu{
+  display: flex;
+  flex-direction: column;
+}
+body > section.clients > div > div.karu > div.key > img{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+body > section.clients > div > div.karu > div.key{
+  display: flex;
+  align-items: center;
+  
+} 
